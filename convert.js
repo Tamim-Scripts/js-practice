@@ -1,4 +1,4 @@
-function inchToFeet(inch){
+/*function inchToFeet(inch){
     const feet = inch/12;
     return feet;
 
@@ -13,4 +13,19 @@ function inchToFeet2(inch){
 }
 //const tamimHeight = inchToFeet(75);
 const tamimHeight = inchToFeet2(75);
-console.log(tamimHeight);
+console.log(tamimHeight);*/
+
+//leap year
+
+function isLeapYear(year){
+    if (year % 100 !== 0  && year % 4 == 0){
+        return true;
+    }
+    else{
+        return false;
+    }
+
+}
+const lipi = isLeapYear(2043);
+const lipi2 = isLeapYear(2024);
+console.log(lipi,lipi2);
