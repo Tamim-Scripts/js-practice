@@ -9,6 +9,7 @@ const biriyanikhor = ['tamim', 'ahmed', 'iqbal', 'tamim', 'ahmed'];
             unique.push(item);
         }
     }
+    
     return unique;
  }
 
